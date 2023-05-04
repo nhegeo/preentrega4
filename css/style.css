@@ -375,7 +375,7 @@ ul.slider li:target{
 
   border: 1px solid black;
 
-  background-color: wheat;
+  background-color: seagreen;
 
 }
 header {
@@ -454,7 +454,7 @@ aside {
 }
 .container2{
   margin: auto;
-  background-color: wheat;
+  background-color: black;
   width: 800px;
   padding: 5px;
 }
