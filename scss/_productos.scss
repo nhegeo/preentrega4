@@ -1,0 +1,30 @@
+.container-opciones {
+    @include flex-columna;
+}
+.padre-cards {
+    @include flex-columna;
+    gap: $espacio-medio;
+    margin-top: $espacio-grande;
+}
+
+@media (min-width: $tablet) {
+    .padre-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: $espacio-chico;
+        justify-items: center;
+    }
+}
+
+@media (min-width: $destop) {
+    .padre-cards {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+@media (min-width: $desktopXG) {
+    .padre-cards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
